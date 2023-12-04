@@ -99,7 +99,7 @@ def main():
                     print_uma_vez += 1
                     if print_uma_vez == 1:
                         ...
-                        #print("Não é o seu dia de trabalho \n")
+                        print("Sessão não foi aberta\n")
                 elif (horario_inicial_time > hora_agora or hora_agora > horario_final_time) and int(numero_dia) == dia or acessar_data() == data_agora:
                     print_uma_vez += 1
                     if print_uma_vez == 1:
